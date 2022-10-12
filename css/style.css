@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+
+/* Global Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3%;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.outer-container{
+    background-color: white;
+    border-radius: 3%;
+    padding: 5%;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    margin-bottom: 30px;
+}
+
+
+
+/* Global Ends */
+
+
+/* introduction Section start */
+
+
+.introduction img{
+    height: 350px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.mail{
+    margin-top: 20px;
+    padding: 5px;
+    color: #4F4F4F;
+}
+
+.phone {
+    padding: 5px;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+}
+
+/* introduction Section Ends */
+
+/* Experiences section start */
+
+.Experience-first .image-left img{
+    height: 84px;
+    width: 84px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.Experience-first{
+    display: flex;
+}
+
+.content-right p:nth-child(2){
+    padding: 15px 0;
+    font-weight: 700;
+   
+}
