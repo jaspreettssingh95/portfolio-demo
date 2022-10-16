@@ -53,14 +53,67 @@ h3 {
   line-height: 20px;
   text-transform: uppercase;
   color: #4f4f4f;
+  padding: 20px 0;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f4f4f;
 }
 
 .outer-container {
   background-color: white;
-  border-radius: 3%;
-  padding: 5%;
+  border-radius: 12px;
+  padding: 20px;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
   margin-bottom: 30px;
+}
+
+.dark-button {
+  border: none;
+  outline: none;
+  background: rgb(47, 128, 237);
+  border-radius: 12px;
+  width: 135px;
+  height: 46px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 0 20px 0 0;
+}
+
+.light-button {
+  border: 2px solid  rgb(47, 128, 237);;
+  outline: none;
+  background: white;
+  border-radius: 12px;
+  width: 135px;
+  height: 46px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(47, 128, 237);
+}
+
+.footer-text{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #828282;
+  
 }
 
 /* Global Ends */
@@ -132,7 +185,27 @@ i {
 
 /* <!-- Front End section starts --> */
 
-label{
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+.front-end {
+  display: grid;
 }
+
+/* <!-- Front End section Ends --> */
+
+/* <!-- Project End section starts --> */
+
+.buttons {
+  margin: 20px 0 0 0;
+}
+
+
+
+
+
+
+@media screen max-width:320px {
+  
+}
+
+
+
+
